@@ -26,7 +26,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [GitHub Solution URL](https://github.com/AAEmara/qr-code-component.git)
+- Solution URL: [My Solution URL on Frontend Mentor](https://www.frontendmentor.io/solutions/html-semantic-html-css-css-variables-flexbox-vercel-and-figma-JbzMClu3xO)
 - Live Site URL: [QR-Code Component Live URL - Vercel](https://qr-code-iti.vercel.app/)
 
 ## My process

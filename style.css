@@ -53,14 +53,9 @@ img {
     border-radius: 10px;
 }
 
-
-.header-rectangle {
-    width: 288px;
-    height: 131px;
-}
-
 .header-content {
-    width: 256px;
+    width: 100%;
+    max-width: 256px;
     margin: auto;
 }
 
