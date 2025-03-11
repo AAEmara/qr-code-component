@@ -1,0 +1,91 @@
+:root {
+    /* Colors */
+    --white: hsl(0, 0%, 100%);
+    --slate-900: hsl(218, 44%, 22%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-300: hsl(212, 45%, 89%);
+    --attribution-color: hsl(228, 45%, 44%);
+
+    /* Fonts */
+    --font-heading: 700 120% 0px;
+    --font-paragraph: 400 140% 0.2px;
+    --pargraph-size: 15px;
+    --font-family-outfit: "Outfit", sans-serif;
+
+    --card-shadow: 0px 25px 25px 0px rba(0, 0, 0 / 4.77%);
+    --card-radius: 20px;
+}
+
+/* Body CSS Declarations */
+body {
+    background-color: var(--slate-300);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: var(--font-family-outfit);
+    font-size: var(--pragraph-size);
+}
+
+/* QR Code CSS Declarations */
+.qr-component {
+    width: 288px;
+    margin: auto;
+    background-color: var(--white);
+    border-radius: var(--card-radius);
+    padding: 16px 16px 40px 16px;
+    box-shadow: var(--card-shadow);
+}
+
+.qr-code {
+    padding-bottom: 24px;
+    height: 288px;
+}
+
+img {
+    width: 288px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.header-rectangle {
+    width: 288px;
+    height: 131px;
+}
+
+.header-content {
+    width: 256px;
+    margin: auto;
+}
+
+h1,
+p {
+    margin: 0px;
+    text-align: center;
+}
+
+h1 {
+    height: 52px;
+    font-size: 22px;
+    font: var(--font-heading);
+    font-style: bold;
+}
+
+p {
+    margin-top: 16px;
+    color: var(--slate-500);
+    font: var(--font-paragraph);
+}
+
+/* Attribution CSS Declarations */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--attribution-color);
+}
