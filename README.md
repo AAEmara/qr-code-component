@@ -6,6 +6,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -22,6 +23,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![Screenshot for Desktop View](./screenshot-desktop.png)
 ![Screenshot for Mobile View](./screenshot-mobile.png)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/AAEmara/qr-code-component.git)
+- Live Site URL: [QR-Code Component Live URL - Vercel](https://qr-code-iti.vercel.app/)
 
 ## My process
 
