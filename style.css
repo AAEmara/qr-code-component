@@ -7,11 +7,14 @@
     --attribution-color: hsl(228, 45%, 44%);
 
     /* Fonts */
-    --font-heading: 700 120% 0px;
-    --font-paragraph: 400 140% 0.2px;
-    --pargraph-size: 15px;
+    --paragraph-size: 15px;
     --font-family-outfit: "Outfit", sans-serif;
-
+    --font-weight-header: 700;
+    --line-height-header: 120%;
+    --letter-spacing-header: 0px;
+    --font-weight-paragraph: 400;
+    --line-height-paragraph: 140%;
+    --letter-spacing-paragraph: 0.2px;
     --card-shadow: 0px 25px 25px 0px rba(0, 0, 0 / 4.77%);
     --card-radius: 20px;
 }
@@ -26,7 +29,7 @@ body {
     align-items: center;
     margin: auto;
     font-family: var(--font-family-outfit);
-    font-size: var(--pragraph-size);
+    font-size: var(--paragraph-size);
 }
 
 /* QR Code CSS Declarations */
@@ -70,14 +73,17 @@ p {
 h1 {
     height: 52px;
     font-size: 22px;
-    font: var(--font-heading);
-    font-style: bold;
+    font-weight: var(--font-weight-header);
+    line-height: var(--line-height-header);
+    letter-spacing: var(--letter-spacing-header);
 }
 
 p {
     margin-top: 16px;
     color: var(--slate-500);
-    font: var(--font-paragraph);
+    font-weight: var(--font-weight-paragraph);
+    line-height: var(--line-height-paragraph);
+    letter-spacing: var(--letter-spacing-paragraph);
 }
 
 /* Attribution CSS Declarations */
